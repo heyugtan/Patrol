@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -15,6 +15,29 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- 底下飞出来的动画 -->
+    <style name="AnimBottomFly" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fly_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/fly_bottom_out</item>
+    </style>
+    
+    <!-- activity底下飞出来的按钮 -->
+    <style name="StyleDialogBottom">
+        <item name="android:windowAnimationStyle">@style/AnimBottomFly</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 悬浮 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
     </style>
 
 </resources>

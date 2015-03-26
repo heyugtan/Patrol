@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_photo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/shape_corner_top"
+            android:text="拍照"
+            android:textColor="#00A0FF"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="-1px"
+            android:background="@drawable/shape_corner_center"
+            android:text="摄像"
+            android:textColor="#00A0FF"
+            android:textSize="17sp" />
+        
+        <Button
+            android:id="@+id/btn_text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="-1px"
+            android:background="@drawable/shape_corner_bottom"
+            android:text="文字"
+            android:textColor="#00A0FF"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/shape_corner"
+            android:text="取消"
+            android:textColor="#00A0FF"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -3,6 +3,15 @@
 
     <string name="app_name">Patrol</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    
+    <string name="next_time">下次巡查时间:</string>
+    <string name="time_text">时间:</string>
+    <string name="time">03-27 15:30</string>
+    
+    <string name="address_text">地点</string>
+    <string name="address_unknown">未知</string>
+    
+    <string name="last_record">上次记录</string>
+    <string name="record_text">记录</string>
 
 </resources>
